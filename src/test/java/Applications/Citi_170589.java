@@ -14,6 +14,7 @@ public void Appaian_001() {
 	Select s = new Select(getDriver().findElement(By.cssSelector("#dropdown-class-example")));
 	s.selectByIndex(3);
 	System.out.println("Hello changed");
+	System.out.println("hii hello");
 }
 
 	
