@@ -13,6 +13,7 @@ public class Citi_170589 extends Browser {
 public void Appaian_001() { 
 	Select s = new Select(getDriver().findElement(By.cssSelector("#dropdown-class-example")));
 	s.selectByIndex(3);
+	System.out.println("Hello changed");
 }
 
 	
